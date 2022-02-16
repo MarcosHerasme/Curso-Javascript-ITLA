@@ -1,0 +1,54 @@
+.texto{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 40px;
+  margin-top: 10px;
+  line-height: 24px;
+}
+
+.boton{
+  font-family: sans-serif;
+  padding: 10px 20px;
+  margin: 0 10px 0 10px;
+  background-color: lightblue;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  border-color: yellow;
+  border-width: 10px;
+}
+
+h3 {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.separador{
+  margin-top: 20px;
+  height: 3px;
+  background-color: navy;
+}
+
+img{
+  padding: 10px;
+}
+
+.cuadroImagenes{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.imagenes{
+
+}

@@ -1,0 +1,28 @@
+{
+  "name": "tarea_js_itla",
+  "version": "1.0.0",
+  "description": "Tareas de 1 al 6 del Diplomado ITLA JS 2022",
+  "main": "tarea.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosHerasme/Curso-Javascript-ITLA.git"
+  },
+  "keywords": [
+    "Tareas",
+    "JavaScript",
+    "ITLAS",
+    "Terminal"
+  ],
+  "author": "Marcos Herasme",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MarcosHerasme/Curso-Javascript-ITLA/issues"
+  },
+  "homepage": "https://github.com/MarcosHerasme/Curso-Javascript-ITLA#readme",
+  "dependencies": {
+    "prompt": "^1.2.1"
+  }
+}
