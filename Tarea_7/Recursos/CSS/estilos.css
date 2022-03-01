@@ -1,0 +1,20 @@
+:root {
+    --color-black: #1F2421;
+    --color-white: #EFF1F3;
+    --color-blue: #01A7C2;
+    --color-orange: #FE654F;
+    --color-grey: #344055;
+    --bg-color-white: #F7F7FF;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}

@@ -14,14 +14,6 @@ function el_indexHTML(request, response){
   response.sendFile(path.join(__dirname, '/index.html'))
 };
 
-function ejemplo1(request, response){
-  response.sendFile(path.join(__dirname, '/ejemplo1.html'))
-};
-
-function ejemplo2(request, response){
-  response.sendFile(path.join(__dirname, '/ejemplo2.html'))
-};
-
 console.log('Hola, Express esta encendido presiona Command . (MacOS) o CRTL C (Windows)');
 
 
@@ -29,9 +21,8 @@ app.get('/', respuesta)
 
 app.get('/index', el_indexHTML)
 
-app.get('/ejemplo1.html', ejemplo1)
+app.get('/index.html', el_indexHTML)
 
-app.get('/ejemplo2.html', ejemplo2)
 
 
 // Puerto en la red donde se escucha
