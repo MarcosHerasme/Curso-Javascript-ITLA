@@ -1,0 +1,36 @@
+# Mis Proyectos
+
+node_modules
+clase_3/node_modules
+Clase_5/node_modules
+Tarea_7/node_modules
+Tarea_JS_ITLA/node_modules
+clase_10/node_modules
+ProyectoFinal/node_modules
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
