@@ -4,11 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <script type="text/javascript" src="" defer></script>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <script type="text/javascript" src="librerias/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="JavaScript/data.js" charset="utf-8" defer></script>
+    <script src="JavaScript/app.js" charset="utf-8" defer></script>
+    <script src="JavaScript/app-balance.js" charset="utf-8" defer></script>
+    <script src="JavaScript/app-operaciones.js" charset="utf-8" defer></script>
+    <script src="JavaScript/app-consulta.js" charset="utf-8" defer></script>
+    <script src="JavaScript/tipos.js" charset="utf-8" defer></script>
     <title>Index</title>
 </head>
 <body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mis Chelitos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="http://localhost:3000/index">Inicio</a>
+          <a id="consulta" class="nav-link active" href="#">Consultas</a>
+          <a class="nav-link active" href="#">Preferencias</a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
+
+<div id="pantalla" class="centrado">
+      <!-- Aqui se despliegan las aplicaciones -->
+</div>
+
+<!-- Boton agregar transacciones -->
+  <div id="operacion" class="position-relative">
+    <button type="button" class="btn btn-success btn-lg position-fixed bottom-0 end-0 boton-add">
+      <i class="fa-solid fa-plus"></i>
+    </button>
+  </div>
 </body>
-</html> 
+</html>

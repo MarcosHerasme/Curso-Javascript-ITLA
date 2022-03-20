@@ -1,0 +1,62 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('/librerias/bootstrap/dist/css/bootstrap.min.css');
+
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin-top: 5%;
+  background-color: lightgray;
+}
+
+.body-margen {
+  margin-top: 5%;
+  background-color: lightgray;
+}
+
+.navbar {
+  background-color: white;
+  opacity: 1;
+}
+
+.saludo {
+  margin-top: 60px;
+}
+
+.margen {
+  padding-bottom: 0.25rem;
+}
+
+.centrado {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 800px;
+}
+
+.boton-add {
+  margin-right: 20px;
+  margin-bottom: 120px;
+  z-index: 1000;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+.row > .col {
+  height: 60px;
+  padding: 10px 10px;
+  border-width: 3px 0 0 0;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.card-header .row {
+  margin-top: 30px;
+  padding: 0 10px;
+}
+
+.input-group-append {
+  cursor: pointer;
+}
